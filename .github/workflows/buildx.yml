@@ -33,7 +33,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            ghcr.io/${{ github.repository_owner }}/myshell
+            ghcr.io/${{ github.repository }}
           tags: |
             type=schedule
             type=ref,event=branch
