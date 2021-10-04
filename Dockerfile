@@ -1,4 +1,4 @@
-FROM ros:galactic-ros-core@sha256:9fb2712667647fcab02d6807306899506a466174298d6b871d28bff48bed1714
+FROM ros:galactic-ros-core@sha256:4e2809cdcc7af59431e0d7a2078e94b2441812ea8b6f905c7e27e143f2689241
 
 ENV RMW_IMPLEMENTATION=rmw_fastrtrps_cpp
 
